@@ -1,0 +1,4 @@
+<meta>
+	<info author="Mark Gyori" name="PubgCompass" version="1.0.0" type="script" description="Playerunknown's Battlegrounds compass"/>/>
+    <script type="client" src="client.lua" />
+</meta>

@@ -1,0 +1,12 @@
+<meta>
+    <info author="enesbayrktar" version="1.0.0" name="Interface" type="script" />
+    <script type="client" src="client.lua" cache="false" validate="true" />
+    <download_priority_group>9</download_priority_group>
+
+    <export type="client" function="guiDestroyElements" />
+
+    <export type="client" function="guiWindowSetCentered" />
+    <export type="client" function="guiWindowSetTitleEnabled" />
+
+    <export type="client" function="guiCreateSplashWindow" />
+</meta>

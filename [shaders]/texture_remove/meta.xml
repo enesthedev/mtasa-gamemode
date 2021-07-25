@@ -1,0 +1,6 @@
+<meta>
+  <info author="enesbayrktar" name="Texture Remove" version="1.0.0" type="script" />
+  <script type="client" src="client.lua" cache="false" validate="true" />
+
+  <file src="fx/replace.fx" />
+</meta>

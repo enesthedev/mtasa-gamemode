@@ -1,0 +1,8 @@
+<meta>
+  <info author="enesbayrktar" version="1.0.0" name="Extended Animations" type="script" />
+  <min_mta_version client="1.5.8-9.20704.0" />
+
+  <file src="ifp/ped.ifp" />
+
+  <script type="client" src="client.lua" cache="false" validate="true" />
+</meta>

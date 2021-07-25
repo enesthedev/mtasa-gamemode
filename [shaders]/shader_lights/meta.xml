@@ -1,0 +1,4 @@
+<meta>
+  <info author="enesbayrktar" name="Lights Shader" version="1.0.0" description="Fix lights" type="script" />
+  <script type="client" src="client.lua" cache="false" validate="true" />
+</meta>

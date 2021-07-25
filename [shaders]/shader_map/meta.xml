@@ -1,0 +1,8 @@
+<meta>
+  <info author="enesbayrktar" name="Map Textures" version="1.0.0" type="script" />
+  <script type="client" src="client.lua" cache="false" validate="true" />
+
+  <file src="fx/replace.fx" />
+
+  <file src="textures/idlegass.dds" type="client" cache="false" />
+</meta>

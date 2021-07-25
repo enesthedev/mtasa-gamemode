@@ -1,0 +1,7 @@
+<meta>
+  <info author="enesbayrktar" version="1.0.0" name="Chat" type="script" />
+  <download_priority_group>12</download_priority_group>
+
+  <script type="server" src="server.lua" />
+  <script type="client" src="client.lua" cache="false" validate="true" />
+</meta>

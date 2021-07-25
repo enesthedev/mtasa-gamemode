@@ -1,0 +1,8 @@
+<meta>
+  <info author="enesbayrktar" name="Texture Names" version="1.0.0" type="script" />
+
+  <script type="client" src="c_key_auto_repeat.lua" />
+  <script type="client" src="c_tex_names.lua" />
+
+  <file src="fx/tex_names.fx" />
+</meta>

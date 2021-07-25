@@ -1,0 +1,6 @@
+<meta>
+	<info author="enesbayrktar" version="1.0" name="San Andreas Weather Cycle" type="script"/>
+
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" />
+</meta>

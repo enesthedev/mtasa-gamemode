@@ -1,0 +1,77 @@
+<meta>
+	<info author="enesbayrktar" version="1.0.0" name="Maximap" type="script" />
+  <min_mta_version client="1.5.7-0.20704" />
+
+	<script src="server.lua" type="server" />
+
+	<file src="fx/replace.fx" />
+
+	<file src="media/blips/0.png" />
+	<file src="media/blips/1.png" />
+	<file src="media/blips/2.png" />
+	<file src="media/blips/3.png" />
+	<file src="media/blips/4.png" />
+	<file src="media/blips/5.png" />
+	<file src="media/blips/6.png" />
+	<file src="media/blips/7.png" />
+	<file src="media/blips/8.png" />
+	<file src="media/blips/9.png" />
+	<file src="media/blips/10.png" />
+	<file src="media/blips/11.png" />
+	<file src="media/blips/12.png" />
+	<file src="media/blips/13.png" />
+	<file src="media/blips/14.png" />
+	<file src="media/blips/15.png" />
+	<file src="media/blips/16.png" />
+	<file src="media/blips/17.png" />
+	<file src="media/blips/18.png" />
+	<file src="media/blips/19.png" />
+	<file src="media/blips/20.png" />
+	<file src="media/blips/21.png" />
+	<file src="media/blips/22.png" />
+	<file src="media/blips/23.png" />
+	<file src="media/blips/24.png" />
+	<file src="media/blips/25.png" />
+	<file src="media/blips/26.png" />
+	<file src="media/blips/27.png" />
+	<file src="media/blips/28.png" />
+	<file src="media/blips/29.png" />
+	<file src="media/blips/30.png" />
+	<file src="media/blips/31.png" />
+	<file src="media/blips/32.png" />
+	<file src="media/blips/33.png" />
+	<file src="media/blips/34.png" />
+	<file src="media/blips/35.png" />
+	<file src="media/blips/36.png" />
+	<file src="media/blips/37.png" />
+	<file src="media/blips/38.png" />
+	<file src="media/blips/39.png" />
+	<file src="media/blips/40.png" />
+	<file src="media/blips/41.png" />
+	<file src="media/blips/42.png" />
+	<file src="media/blips/43.png" />
+	<file src="media/blips/44.png" />
+	<file src="media/blips/45.png" />
+	<file src="media/blips/46.png" />
+	<file src="media/blips/47.png" />
+	<file src="media/blips/48.png" />
+	<file src="media/blips/49.png" />
+	<file src="media/blips/50.png" />
+	<file src="media/blips/51.png" />
+	<file src="media/blips/52.png" />
+	<file src="media/blips/53.png" />
+	<file src="media/blips/54.png" />
+	<file src="media/blips/55.png" />
+	<file src="media/blips/56.png" />
+	<file src="media/blips/57.png" />
+	<file src="media/blips/58.png" />
+	<file src="media/blips/59.png" />
+	<file src="media/blips/60.png" />
+	<file src="media/blips/61.png" />
+	<file src="media/blips/62.png" />
+	<file src="media/blips/63.png" />
+
+	<file src="media/radar.dds" />
+
+	<script src="client.lua" type="client" validate="true" cache="false" />
+</meta>

@@ -1,0 +1,6 @@
+/resource-cache/*
+/logs/*
+/databases/*
+/backups/*
+*.hgt
+*.img

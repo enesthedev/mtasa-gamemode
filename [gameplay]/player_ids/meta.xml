@@ -1,0 +1,4 @@
+<meta>
+  <info author="enesbayrktar" version="1.0.0" name="Playerids" type="script" />
+  <script type="server" src="server.lua" />
+</meta>

@@ -1,0 +1,8 @@
+<meta>
+  <info author="enesbayrktar" version="1.0.0" name="Player FPS" type="script" />
+  <download_priority_group>4</download_priority_group>
+
+  <script type="client" src="client.lua" cache="false" validate="true" />
+
+  <export type="client" function="getClientFPS" />
+</meta>

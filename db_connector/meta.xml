@@ -1,0 +1,7 @@
+<meta>
+  <info author="enesbayrktar" version="1.0.0" name="Connector" type="script" />
+  <min_mta_version server="1.5.6-9.18728" client="1.5.8-9.20698.0" />
+  <script type="server" src="server.lua" />
+
+  <export type="server" function="get" />
+</meta>

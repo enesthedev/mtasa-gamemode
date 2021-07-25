@@ -1,0 +1,7 @@
+<meta>
+  <info author="enesbayrktar" version="1.0.0" name="Account cache" type="script" />
+  <script type="server" src="server.lua" />
+
+  <export type="server" function="get" />
+  <export type="server" function="set" />
+</meta>

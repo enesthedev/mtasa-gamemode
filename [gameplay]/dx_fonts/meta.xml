@@ -1,0 +1,13 @@
+<meta>
+  <info author="enesbayrktar" version="1.0.0" name="Fonts" type="script" />
+  <download_priority_group>10</download_priority_group>
+
+  <file type="client" src="default.ttf" />
+  <file type="client" src="bold.ttf" />
+  <file type="client" src="regular2.ttf" />
+  <file type="client" src="default-bold.ttf" />
+  <file type="client" src="ahronbd.ttf" />
+  <file type="client" src="opensans.ttf" />
+  <file type="client" src="rb.ttf" />
+  <file type="client" src="compass.otf" />
+</meta>

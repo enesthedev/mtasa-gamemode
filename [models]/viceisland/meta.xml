@@ -1,0 +1,21 @@
+<meta>
+  <info author="Lucifer" name="Vice Island Objects" version="1.0.0" type="script" />
+  <download_priority_group>2</download_priority_group>
+
+  <script type="client" src="client.lua" cache="false" validate="true" />
+
+  <file src="mansion.txd" />
+  <file src="starfish.txd" />
+
+  <file src="parts/mansionpart1.col" />
+  <file src="parts/mansionpart1.dff" />
+  <file src="parts/mansionpart2.col" />
+  <file src="parts/mansionpart2.dff" />
+
+  <file src="parts/starfishpart1.col" />
+  <file src="parts/starfishpart1.dff" />
+  <file src="parts/starfishpart2.col" />
+  <file src="parts/starfishpart2.dff" />
+  <file src="parts/starfishpart3.col" />
+  <file src="parts/starfishpart3.dff" />
+</meta>

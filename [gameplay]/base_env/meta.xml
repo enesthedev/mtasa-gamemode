@@ -1,0 +1,7 @@
+<meta>
+  <info author="enesbayrktar" version="1.0.0" name="Environmental Variables" type="script" />
+  <script type="shared" src="shared.lua" />
+
+  <export type="shared" function="set" />
+  <export type="shared" function="get" />
+</meta>

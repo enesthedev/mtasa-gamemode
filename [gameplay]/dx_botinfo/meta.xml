@@ -1,0 +1,4 @@
+<meta>
+  <info author="enesbayrktar" version="1.0.0" name="Bottom Interface" type="script" />
+  <script type="client" src="client.lua" cache="false" validate="true" />
+</meta>

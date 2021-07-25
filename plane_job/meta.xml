@@ -1,0 +1,7 @@
+<meta>
+  <info author="enesbayrktar" version="1.0.0" name="Plane Job" type="script" />
+  <oop>true</oop>
+
+  <script type="server" src="server.lua" />
+  <script type="client" src="client.lua" cache="false" validate="true" />
+</meta>
