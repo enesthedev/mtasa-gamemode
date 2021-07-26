@@ -9,4 +9,7 @@
     <export type="client" function="guiWindowSetTitleEnabled" />
 
     <export type="client" function="guiCreateSplashWindow" />
+
+    <!-- Work In Progress -->
+    <export type="client" function="guiCreateImageButton" />
 </meta>

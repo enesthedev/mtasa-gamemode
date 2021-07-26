@@ -18,12 +18,14 @@
 |getClientFPS()                    |
 
 ### interface
-|CLIENT                                                    |
-|----------------------------------------------------------|
-|guiWindowSetCentered(guiWindow, state, offsetX, offsetY)  |
-|guiDestroyElements(guiElements...)                        |
-|guiCreateSplashWindow(message, interval)                  |
-|guiWindowSetTitleEnabled(guiWindow, state)                |
+|CLIENT                                                                     |
+|---------------------------------------------------------------------------|
+|guiWindowSetCentered(guiWindow, state, offsetX, offsetY)                   |
+|guiWindowSetTitleEnabled(guiWindow, state)                                 |
+|guiDestroyElements(guiElements...)                                         |
+|guiCreateSplashWindow(message, interval)                                   |
+|guiCreateImageButton(x, y, width, height, path, label, relative, parent)   |
+
 
 ### conguard
 |SERVER                                                     |CLIENT                              |

@@ -60,12 +60,17 @@ function guiCreateImageButton(x, y, width, height, path, label, relative, parent
 		return false, error('Cannot create to ImageButton')
 	end
 
-	local label = guiCreateLabel(0, 0, 1, 1, label, false, img)
-	if not label then
-		return false, error('Cannot create to ImageButton label')
+	if label then
+		local label = guiCreateLabel(0, 0, 1, 1, label, true, img)
+		if not label then
+			return false, error('Cannot create to ImageButton label')
+		end
+
+		guiLabelSetHorizontalAlign(label, 'center')
+		guiLabelSetVerticalAlign(label, 'center')
 	end
 
 	return guiSetProperty(img, 'RiseOnClick', 'false')
-					and { img, label }
+					and { img, (label or false) }
 					or false
 end
