@@ -28,7 +28,7 @@ function guiCreateLoginPanel(title, width, height)
 	}
 
 	local buttons = {
-		continue = guiCreateImageButton()
+		continue = call(interface, 'guiCreateImageButton', 0, 0, 150, 40, ':media/')
 	}
 
 	call(interface, 'guiWindowSetCentered', windows.mainFrame, true)

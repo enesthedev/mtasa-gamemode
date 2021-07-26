@@ -3,4 +3,8 @@
   <download_priority_group>11</download_priority_group>
 
   <file type="client" src="cursor.png" />
+  <file type="client" src="next.png" />
+  <file type="client" src="previous.png" />
+  <file type="client" src="question.png" />
+  <file type="client" src="transparent.png" />
 </meta>
