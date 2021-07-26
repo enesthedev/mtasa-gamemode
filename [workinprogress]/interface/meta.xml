@@ -1,15 +1,16 @@
 <meta>
     <info author="enesbayrktar" version="1.0.0" name="Interface" type="script" />
-    <script type="client" src="client.lua" cache="false" validate="true" />
     <download_priority_group>9</download_priority_group>
 
-    <export type="client" function="guiDestroyElements" />
+    <script type="client" src="client.lua" cache="false" validate="true" />
 
     <export type="client" function="guiWindowSetCentered" />
     <export type="client" function="guiWindowSetTitleEnabled" />
 
-    <export type="client" function="guiCreateSplashWindow" />
+    <export type="client" function="guiDestroyElements" />
 
-    <!-- Work In Progress -->
+    <export type="client" function="guiCreateSplashWindow" />
     <export type="client" function="guiCreateImageButton" />
+
+    <file type="client" src="media/200x40-bluegray.png" />
 </meta>

@@ -3,6 +3,11 @@ local s = math.max(sh/1080, 0.8)
 
 local interface = getResourceFromName('interface')
 
+-- HOTFIX: If interface resource not works accounts interface looks like boomers.
+if not interface then
+	return error('Interface could not be initialized')
+end
+
 local locations = {
 	{ 1804.1455078125, -1932.4345703125, 13.386493682861, 1793.5693359375, -1924.181640625, 17.390524864197 },
 	{ 1940.4599609375, -1772.3994140625, 13.390598297119, 1970.6015625, -1742.7529296875, 17.546875 },
@@ -28,7 +33,7 @@ function guiCreateLoginPanel(title, width, height)
 	}
 
 	local buttons = {
-		continue = call(interface, 'guiCreateImageButton', 0, 0, 150, 40, ':media/question.png', 'test', false, windows.subFrame)
+		continue = call(interface, 'guiCreateImageButton', 0, 0, 150, 40, ':interface/media/200x40-bluegray.png', 'test', false, windows.subFrame)
 	}
 
 	table.insert(trashElements, buttons.continue)
