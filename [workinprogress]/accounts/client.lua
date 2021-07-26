@@ -17,17 +17,23 @@ local locations = {
 local trashElements = {}
 
 function guiCreateLoginPanel(title, width, height)
-	local wnd = guiCreateWindow(0, 0, width, height, title or '', false)
-
-	local inputs = {
-		nickname = guiCreateEdit(0, 0.17, 1, 1, 'a', true, wnd)
+	local wnds = {
+		mainFrame = guiCreateWindow(0, 0, width, height, title or '', false),
+		subFrame = guiCreateWindow(0, 0, width, 50, '', false)
 	}
 
-	call(interface, 'guiWindowSetTitleEnabled', wnd, title)
-	call(interface, 'guiWindowSetCentered', wnd, true)
+	local inputs = {
+		nickname = guiCreateEdit(0, 0.1, 1, 0.35, 'Kullanıcı adı', true, wnd),
+		password = guiCreateEdit(0, 0.54, 1, 0.35, 'Şifre', true, wnd)
+	}
 
-	guiWindowSetMovable(wnd, false)
-	guiWindowSetSizable(wnd, false)
+	for _, wnd in pairs(wnds) do
+		call(interface, 'guiWindowSetTitleEnabled', wnd, title)
+		call(interface, 'guiWindowSetCentered', wnd, true)
+		
+		guiWindowSetMovable(wnd, false)
+		guiWindowSetSizable(wnd, false)
+	end
 
 	showCursor(true)
 end
@@ -68,7 +74,10 @@ addEventHandler('onClientResourceStart', resourceRoot, function()
 		setCameraMatrix(unpack(locations[math.random(1, table.maxn(locations))]))
 
 		if sw >= 801 then
-			return guiCreateLoginPanel(false, 450, 50)
+			guiCreateLoginPanel(false, 450, 100)
+			return call(interface, 'guiCreateSplashWindow',
+							'Oyun sunucumuza hoşgeldin! Giriş yapmak ya da kaydolmak için seni sıkmayacağız.\nBuradaki bilgileri doldurman ve devam et demen senin için yeterli!', 5000
+			)
 		end
 
 		if table.maxn(trashElements) > 0 then

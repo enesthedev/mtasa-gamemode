@@ -7,7 +7,7 @@ function guiWindowSetTitleEnabled(window, state)
 	guiSetProperty(window, 'CloseButtonEnabled', state)
 end
 
-function guiWindowSetCentered(window, state)
+function guiWindowSetCentered(window, state, offsetX, offsetY)
 	if not state then
 		return
 	end
@@ -19,7 +19,7 @@ function guiWindowSetCentered(window, state)
 		return
 	end
 
-	return guiSetPosition(window,(sw - gw) / 2,(sh - gh) / 2, false)
+	return guiSetPosition(window,((sw - gw) / 2) + offsetX,((sh - gh) / 2) + offsetY, false)
 end
 
 function guiDestroyElements(...)

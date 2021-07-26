@@ -20,7 +20,7 @@
 ### interface
 |CLIENT                                                    |
 |----------------------------------------------------------|
-|guiWindowSetCentered(guiWindow, state)                    |
+|guiWindowSetCentered(guiWindow, state, offsetX, offsetY)                    |
 |guiDestroyElements(guiElements...)                        |
 |guiCreateSplashWindow(message, interval)                  |
 |guiWindowSetTitleEnabled(guiWindow, state)                |
