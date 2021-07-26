@@ -17,20 +17,26 @@ local locations = {
 local trashElements = {}
 
 function guiCreateLoginPanel(title, width, height)
-	local wnds = {
+	local windows = {
 		mainFrame = guiCreateWindow(0, 0, width, height, title or '', false),
-		subFrame = guiCreateWindow(0, 0, width, 50, '', false)
+		subFrame = guiCreateWindow(0, 0, width, 20, '', false)
 	}
 
 	local inputs = {
-		nickname = guiCreateEdit(0, 0.1, 1, 0.35, 'Kullanıcı adı', true, wnd),
-		password = guiCreateEdit(0, 0.54, 1, 0.35, 'Şifre', true, wnd)
+		nickname = guiCreateEdit(0, 0.1, 1, 0.35, 'Kullanıcı adı', true, windows.mainFrame),
+		password = guiCreateEdit(0, 0.54, 1, 0.35, 'Şifre', true, windows.mainFrame)
 	}
 
-	for _, wnd in pairs(wnds) do
+	local buttons = {
+		continue = guiCreateImageButton()
+	}
+
+	call(interface, 'guiWindowSetCentered', windows.mainFrame, true)
+	call(interface, 'guiWindowSetCentered', windows.subFrame, true, 0, s * 80)
+
+	for _, wnd in pairs(windows) do
 		call(interface, 'guiWindowSetTitleEnabled', wnd, title)
-		call(interface, 'guiWindowSetCentered', wnd, true)
-		
+
 		guiWindowSetMovable(wnd, false)
 		guiWindowSetSizable(wnd, false)
 	end

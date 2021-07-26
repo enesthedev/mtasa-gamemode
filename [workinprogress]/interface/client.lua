@@ -19,7 +19,7 @@ function guiWindowSetCentered(window, state, offsetX, offsetY)
 		return
 	end
 
-	return guiSetPosition(window,((sw - gw) / 2) + offsetX,((sh - gh) / 2) + offsetY, false)
+	return guiSetPosition(window,((sw - gw) / 2) + (offsetX or 0),((sh - gh) / 2) + (offsetY or 0), false)
 end
 
 function guiDestroyElements(...)
@@ -52,4 +52,20 @@ function guiCreateSplashWindow(message, interval)
 	end
 
 	setTimer(guiDestroyElements, interval or 2000, 1, wnd, label)
+end
+
+function guiCreateImageButton(x, y, width, height, path, label, relative, parent)
+	local img = guiCreateStaticImage(x, y, width, height, path, relative, parent)
+	if not img then
+		return false, error('Cannot create to ImageButton')
+	end
+
+	local label = guiCreateLabel(0, 0, 1, 1, label, false, img)
+	if not label then
+		return false, error('Cannot create to ImageButton label')
+	end
+
+	return guiSetProperty(img, 'RiseOnClick', 'false')
+					and { img, label }
+					or false
 end
