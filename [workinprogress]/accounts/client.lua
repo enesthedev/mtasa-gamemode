@@ -33,13 +33,13 @@ function guiCreateLoginPanel(title, width, height)
 	}
 
 	local buttons = {
-		continue = call(interface, 'guiCreateImageButton', 0, 0, 150, 40, ':interface/media/200x40-bluegray.png', 'test', false, windows.subFrame)
+		continue = call(interface, 'guiCreateImageButton', 0.7, 0.2, 0.3, 0.7, ':interface/media/200x40-bluegray.png', 'Kaydol', true, windows.subFrame)
 	}
 
 	table.insert(trashElements, buttons.continue)
 
 	call(interface, 'guiWindowSetCentered', windows.mainFrame, true)
-	call(interface, 'guiWindowSetCentered', windows.subFrame, true, 0, s * 80)
+	call(interface, 'guiWindowSetCentered', windows.subFrame, true, 0, 0)
 
 	for _, wnd in pairs(windows) do
 		call(interface, 'guiWindowSetTitleEnabled', wnd, title)
